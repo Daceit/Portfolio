@@ -52,7 +52,8 @@ h2{
     border-radius: 2vw;
     margin: auto;
     margin-top: 2vh;
-    width: 43vw;
+    width: 48vw;
+    height: 45vh;
 
 }
 p{
@@ -60,4 +61,35 @@ p{
 }
 img{
     display: none;
+}
+a{
+    
+}
+/* about me */
+.aboutP{
+    width: 24vw;
+    height: 20vh;
+    font-size: 1.7vw;
+    position: relative;
+    left: 23vw;
+    bottom: 0.5vh;
+}
+/* Skills */
+.skillsL{
+    position: relative;
+    left: 18vw;
+    bottom: 4vw;
+    font-size: 2.8vw;
+}
+li{
+    margin-bottom: -3vw;
+    list-style-type: none;
+}
+.skillsI{
+    display: flex;
+    position: relative;
+    width: 5vw;
+    right: 6vw;
+    top: 4.1vw;
+
 }
