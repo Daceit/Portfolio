@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+main{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 98vh;
+    font-family: "Lexend Deca", sans-serif;
+}
+.Neon{
+    background-color: #4B4B4B;
+    width: 98vw;
+    height: 96vh;
+    border-radius: 1vw;
+    border: solid;
+    border-color: #5A86FA;
+}
+a{
+    background-color: #D9D9D9;
+    padding: 1vw 1.5vw;
+    background-image: url(images/Arrow.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    border: solid 2px;
+    border-color: #D9D9D9;
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+}
+a:hover{
+    background-color: #b2b2b2;
+}
+.Background{
+    background-color: black;
+    width: 31.6vw;
+    height: 40.4vh;
+    margin: auto;
+    border-radius: 0.22vw;
+}
+img{
+    margin-left: 4.7vw;
+    margin-top: 0.2vw;
+    width: 20vw;
+    border: solid #4B4B4B;
+    position: relative;
+    left: 0.25vw;
+}
+h2{
+    position: relative;
+    left: 41.3vw;
+    font-size: 3vw;
+    border-bottom: solid;
+    border-color: white;
+    padding-left: 2vw;
+    width: 13.7vw;
+}
+.Sign{
+    background-color: #D9D9D9;
+    width: 30vw;
+    height: 38.5vh;
+    display: flex;
+    position: relative;
+    left: 0.76vw;
+    top: 0.85vh;
+
+}
+p{
+    width: 20vw;
+}
+.description{
+    background-color: #B0B0B0;
+    position: relative;
+    top: 27.5vh;
+    right: 20vw;
+    height: 10vh;
+    padding: 2px;
+    border-radius: 1vw;
+    border: solid #919191;
+}

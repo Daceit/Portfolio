@@ -1,0 +1,22 @@
+.SkillsA{
+    background-image: none !important;
+    margin-bottom: 2vh;
+    width: 30vw;
+    height: 15vh;
+    margin: auto;
+    font-size: 5vw;
+    margin-bottom: 6vh;
+    border-radius: 0rem;
+    right: 13vw;
+    background-color: #5E5E5E;
+    border: solid #5A86FA;
+    text-decoration: none;
+    color: white;
+}
+.SkillsA:hover{
+    background-color: #797979;
+}
+.Column{
+    display: flex;
+    flex-flow: column wrap;
+}

@@ -1,0 +1,16 @@
+.AAAAAAAAAAAAAAAAA{
+    position: relative;
+    left: 45vw;
+    font-size: 2vw;
+}
+p{
+
+    position: relative;
+    right: 20vw;
+    border-bottom: solid white;
+    width: 48vw;
+}
+h1{
+    border-bottom: solid white;
+    width: 9.5vw;
+}
