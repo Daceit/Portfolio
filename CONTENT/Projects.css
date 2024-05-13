@@ -68,7 +68,9 @@ h2{
     position: relative;
     left: 0.76vw;
     top: 0.85vh;
-
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    perspective: 1000px;
 }
 p{
     width: 20vw;
@@ -82,4 +84,54 @@ p{
     padding: 2px;
     border-radius: 1vw;
     border: solid #919191;
+}
+.Img{
+    width: 2vw;
+    left: -9vw;
+    bottom: 4vh;
+    background-color: #919191;
+}
+.Img:hover{
+    background-color: #b2b2b2;
+}
+.Img2{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 2vw;
+    left: 16.5vw;
+    bottom: -4vh;
+    background-color: #919191;
+}
+.Img2:hover{
+    background-color: #b2b2b2;
+}
+.Flip{
+    transform: rotateY(3rad);
+}
+.Flip2{
+    transform: rotateY(3rad);
+}
+.ProjectImg{
+    background-image: url(images/Certificate.png);
+    display: flex;
+    width: 22vw;
+    height: 18vh;
+    background-size: cover;
+    position: relative;
+    left: 2.3vw;
+}
+.ProjectImgDino{
+    background-image: url(images/Dinosaur.png) !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.Sign2{
+    position: relative;
+    top: -37.5vh;
+}
+
+.Sign1{
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
