@@ -125,6 +125,19 @@ p{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+.ProjectImgCalc{
+    background-image: url(images/BudgetCalculator.png) !important;
+}
+.ProjectImgCert{
+    background-image: url(images/Certificate.png) !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.ProjectImgRock{
+    background-image: url(images/Rocketo.png) !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .Sign2{
     position: relative;
     top: -37.5vh;
