@@ -99,7 +99,7 @@ p{
   transform: scaleX(-1);
   width: 2vw;
     left: 16.5vw;
-    bottom: -4vh;
+    bottom: 30vh;
     background-color: #919191;
 }
 .Img2:hover{
@@ -134,4 +134,17 @@ p{
     z-index: 2;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+}
+.ProjectImg2{
+    background-image: url(images/Dinosaur.png);
+    display: flex;
+    width: 22vw;
+    height: 18vh;
+    background-size: cover;
+    position: relative;
+    left: 2.3vw;
+}
+.description2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
