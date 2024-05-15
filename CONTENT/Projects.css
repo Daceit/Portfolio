@@ -112,7 +112,7 @@ p{
     transform: rotateY(3rad);
 }
 .ProjectImg{
-    background-image: url(images/Certificate.png);
+    background-image: url(images/BudgetCalculator.png);
     display: flex;
     width: 22vw;
     height: 18vh;
@@ -130,8 +130,6 @@ p{
 }
 .ProjectImgCert{
     background-image: url(images/Certificate.png) !important;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
 }
 .ProjectImgRock{
     background-image: url(images/Rocketo.png) !important;
@@ -160,4 +158,14 @@ p{
 .description2{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+.NONE{
+    display: none;
+}
+.BAR{
+    background-color: #D9D9D9;
+    width: 0.2vw;
+    height: 40.4vh;
+    position: absolute;
+    right: 50%;
 }
