@@ -97,13 +97,19 @@ p{
 .Img2{
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width: 2vw;
-    left: 16.5vw;
+  width: 4vw;
+    left: 28.5%;
     bottom: 30vh;
     background-color: #919191;
+    border-radius: 1vw;
+    border: solid 2px;
+    border-color: #c0c0c0;
 }
 .Img2:hover{
     background-color: #b2b2b2;
+}
+.Img2:active{
+    background-color: #7e7e7e;
 }
 .Flip{
     transform: rotateY(3rad);
