@@ -4,6 +4,9 @@
 main{
 background-color: black;
 color: white;
+position: absolute;
+top: 0vw;
+width: 100%;
 }
 h2{
     color: #5A86FA;
@@ -140,4 +143,41 @@ li{
 }
 .ContactC{
     height: 40vh;
+}
+.Profile{
+    position: absolute;
+    height: 45vh;
+    left: 12.5vw;
+    top: 27.8vh;
+    border-radius: 2vw;
+}
+header{
+    background-color: #394871;
+    width: 99vw;
+    height: 7.5vh;
+    position: absolute;
+    top: 0rem;
+}
+.menu{
+    width: 5vw;
+    position: relative;
+    top: -1vh;
+}
+.menuD{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    right: 18vw;
+    top: 2rem;
+}
+.AAA{
+    width: 5vw;
+    border-radius: 0rem;
+
+}
+.AAA:hover{
+    background-color: #979797;
+}
+.NONE{
+    display: none;
 }
